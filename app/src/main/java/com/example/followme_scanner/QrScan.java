@@ -60,7 +60,7 @@ public class QrScan extends AppCompatActivity {
 
 
     private void scanAPI() {
-        String url = "http://34.234.79.156/index.php/api/patient/clinic";
+        String url = "http://52.78.153.155/index.php/api/patient/clinic";
         StringRequest request = new StringRequest(
                 Request.Method.POST,
                 url,

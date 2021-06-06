@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getClinic() {
-        String url = "http://34.234.79.156/index.php/api/patient/clinic_info";
+        String url = "http://52.78.153.155/index.php/api/patient/clinic_info";
         StringRequest request = new StringRequest(
                 Request.Method.GET,
                 url,
